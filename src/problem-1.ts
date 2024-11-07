@@ -1,0 +1,19 @@
+{
+    /**
+     * Problem-1: Write a TypeScript function sumArray that takes an array of numbers and returns the sum of all elements 
+       in the array.
+    */
+
+    // create a sumArray function
+    const sumArray = (nums: number[]): number => {
+        const totalSum = nums.reduce((acc, curr) => acc + curr, 0);
+        return totalSum;
+    }
+
+    // input
+    const result = sumArray([1, 2, 3, 4, 5]);
+    
+    // output
+    console.log(result); //15
+  //
+}
