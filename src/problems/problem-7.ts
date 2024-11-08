@@ -22,7 +22,7 @@
       return `${carAge} (assuming current year is 2024)`;
     }
   }
-
+                                  
   // Sample input
   const car = new Car("Honda", "Civic", 2018);
   console.log(car.getCarAge());
