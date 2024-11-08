@@ -1,9 +1,9 @@
 {
   /**
-       * Problem-6: Define an interface Profile with properties name, age, and email. Create a function 
-        updateProfile that accepts an object of type Profile and an object of type Partial representing 
-        the updates. The function should return the updated profile.
-      */
+    * Problem-6: Define an interface Profile with properties name, age, and email. Create a function 
+      updateProfile that accepts an object of type Profile and an object of type Partial representing 
+      the updates. The function should return the updated profile.
+  */
 
   // Profile Interface
   interface Profile {
@@ -13,12 +13,12 @@
   }
 
   // UpdateData type
-  type UpdateData<T> = {
+  type Partial<T> = {
     [P in keyof T]?: T[P];
   };
 
   // create a updateProfile function
-  const updateProfile = (profile: Profile, data: UpdateData<Profile>): Profile => {
+  const updateProfile = (profile: Profile, data: Partial<Profile>): Profile => {
     const updateData: Profile = { ...profile, ...data };
     return updateData;
   };

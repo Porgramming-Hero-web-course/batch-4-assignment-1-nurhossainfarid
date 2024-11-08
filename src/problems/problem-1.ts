@@ -4,7 +4,7 @@
        in the array.
     */
 
-  // create a sumArray function. Here I use the reduce() method to solve this problem
+  // create a sumArray function
   const sumArray = (nums: number[]): number => {
     const totalSum = nums.reduce((acc, curr) => acc + curr, 0);
     return totalSum;

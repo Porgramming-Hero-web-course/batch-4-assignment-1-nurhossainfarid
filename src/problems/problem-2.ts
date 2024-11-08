@@ -4,7 +4,7 @@
        with duplicates removed. Preserve the original order of elements.
     */
 
-  // create a removeDuplicates function. Here I use the filter() method to solve this problem
+  // create a removeDuplicates function
   const removeDuplicates = (nums: number[]): number[] => {
     const newArray = nums.filter((item, index) => nums.indexOf(item) === index)
     return newArray;
