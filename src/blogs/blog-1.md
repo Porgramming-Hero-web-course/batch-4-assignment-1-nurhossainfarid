@@ -40,3 +40,8 @@ Now write example for better understanding:
     age: 23,
     city: "Dhaka"
     };
+
+---------------------------Comparison of Union and Intersection Types-----------------------------------
+Union Types (|) act as an "either-or" condition, useful for cases where a value can be one of several types.
+
+Intersection Types (&) act as an "and" condition, combining properties or behaviors from multiple types into one.

@@ -20,6 +20,9 @@ This assignment covers core TypeScript concepts: data typing, interfaces, classe
 **Problem 07:** In this problem create a Car class include getCarAge that return the car's age based on the current year. 
 
 **Problem 08:** In this problem create a validateKeys(obj: T, keys: (keyof T)[]) function that return true if all of the specified keys exist in the object, otherwise , it should return false. Here use every() method for solve this problem.
+
+**Blog 01:** In this Blogs section, talk about The significance of union and intersection types in Typescript.
+
 ## Developer guide
 
 * Clone the project in your local machine
